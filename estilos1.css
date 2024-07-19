@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: gainsboro;
+}
+
+#logo img{
+    width: 370px;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin: 18px;
+}
+
+span{
+    background-color: white;
+    width: 280px;
+    padding: 5px 23px 5px 23px;
+    display: inline-flex;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 0.1px solid black;
+}
+
+
+
+.container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.detalles{
+    grid-column: 2/2;
+}
+.imgboton{
+   grid-row: 1/2;
+   grid-template-rows: 1fr 1fr;
+}
+
+
+.container img {
+    width: 500px;
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+button{
+    padding: 10px 8px 10px 8px;
+    width: 100px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #f0f0f09b;
+}
+#siguiente{
+    margin-left: 297px;
+}
+
+
+
+.detalles {
+    margin-top: 85px;
+    margin-left: 90px;
+}
+.detalles p{
+    margin-top: 40px;
+    text-align: left;
+    
+}

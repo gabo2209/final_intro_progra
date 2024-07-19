@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	background: #E8347D;
+}
+
+.fondo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+    padding: 10px;
+    padding-bottom: 10px;
+    width: 240px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+#hexadecimal{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 42px;
+    font-weight: bolder;
+	display: block;
+	text-transform: uppercase;
+	margin: 15px;
+}
+
+.fondo button{
+	cursor: pointer;
+	background-color: rgb(50, 152, 192);
+	font-size: 18px;
+    color: white;
+	border-radius: 8px;
+	padding: 10px 15px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.fondo button:hover{
+	background-color: rgba(50, 152, 192, 0.591);
+    color: rgba(0, 0, 0, 0.227);
+}
+
